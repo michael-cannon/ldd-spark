@@ -10,3 +10,8 @@ Version:        1.0
 textarea {
 	min-height: initial;
 }
+
+a.button .edd-submit {
+	text-shadow: none;
+	font-size: 100%;
+}
