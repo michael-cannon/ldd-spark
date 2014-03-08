@@ -10,14 +10,14 @@
 
 
 // Here is how to enqueue CSS and JS files properly:
-add_action('init', 'my_custom_js_and_css');
+add_action('init', 'my_custom_js_and_css', 99);
 function my_custom_js_and_css() {
 	
 	// Enqueue "style.css" from current Child Theme
 	spark_add_styles(array('my-custom-css' => array('url' => get_stylesheet_directory_uri() . '/style.css')));
 
 	// Enqueue "scripts.js" from current Child Theme
-	spark_add_scripts(array('my-custom-js' => array('url' => get_stylesheet_directory_uri().'/scripts.js', 'depends_on' => array('jquery'))));
+	// spark_add_scripts(array('my-custom-js' => array('url' => get_stylesheet_directory_uri().'/scripts.js', 'depends_on' => array('jquery'))));
 
 }
 
