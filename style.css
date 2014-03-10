@@ -11,7 +11,11 @@ textarea {
 	min-height: initial;
 }
 
-a.button .edd-submit {
+a.button.edd-submit {
 	text-shadow: none;
 	font-size: 100%;
+}
+
+.landing-page-section .columns {
+	margin-left: 0;
 }
