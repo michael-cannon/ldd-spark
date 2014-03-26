@@ -108,8 +108,9 @@ if (!$is_landing_page && !is_page() && is_singular() && get_option('thread_comme
 		<div class="container">
 			<div class="sixteen columns alpha omega">
 				<h1 class="logo">
-					<a href="<?php echo home_url('/'); ?>" title="<?php esc_attr_e(get_bloginfo('name', 'display')); ?>"><?php spark_responsive_img($aOptions['logo'], 80, '', get_bloginfo('name'), 'hide-for-mobiles'); ?><?php spark_responsive_img($aOptions['logo_mobile'], 50, 50, get_bloginfo('name'), 'mobiles-only'); ?>Legal Document Deliveries, LLC</a>
+					<a href="<?php echo home_url('/'); ?>" title="<?php esc_attr_e(get_bloginfo('name', 'display')); ?>"><?php spark_responsive_img($aOptions['logo'], 80, '', get_bloginfo('name'), 'hide-for-mobiles'); ?><?php spark_responsive_img($aOptions['logo_mobile'], 50, 50, get_bloginfo('name'), 'mobiles-only'); ?></a>
 				</h1>
+				<div class="company">Legal Document Deliveries, LLC</div>
 
 				<nav class="menu spark-main-menu">
 					<?php if ($aOptions['menu'] == 'Auto') : // Construct the menu automatically ?>

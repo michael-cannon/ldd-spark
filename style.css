@@ -20,7 +20,11 @@ a.button.edd-submit {
 	margin-left: 0;
 }
 
-h1.logo {
+div.company {
+	float: left;
 	font-size: 23px;
+	font-weight: bold;
 	line-height: 27px;
+	max-width: 182px;
+	vertical-align: text-top;
 }
